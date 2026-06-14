@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Store</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>👕 Fashion Store</h1>
+</header>
+
+<section class="formulario">
+<h2>Registrar Prenda</h2>
+
+<input type="text" id="nombre" placeholder="Nombre de la prenda">
+<input type="text" id="categoria" placeholder="Categoría">
+<input type="text" id="talla" placeholder="Talla">
+<input type="number" id="precio" placeholder="Precio">
+<input type="number" id="stock" placeholder="Stock">
+<input type="text" id="imagen" placeholder="URL Imagen">
+
+<button onclick="guardarPrenda()">Guardar</button>
+
+</section>
+
+<section>
+<h2>Catálogo</h2>
+<div id="catalogo"></div>
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
