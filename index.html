@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fashion Store</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Fashion</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-<h1>👕 Fashion Store</h1>
-</header>
+  <header>
+    <h1>✨ Fashion Store</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Hombres</a>
+      <a href="#">Mujeres</a>
+      <a href="#">Ofertas</a>
+    </nav>
+  </header>
 
-<section class="formulario">
-<h2>Registrar Prenda</h2>
+  <section class="hero">
+    <h2>Nueva colección 2026</h2>
+    <p>Descubre el estilo que te define</p>
+    <button>Ver productos</button>
+  </section>
 
-<input type="text" id="nombre" placeholder="Nombre de la prenda">
-<input type="text" id="categoria" placeholder="Categoría">
-<input type="text" id="talla" placeholder="Talla">
-<input type="number" id="precio" placeholder="Precio">
-<input type="number" id="stock" placeholder="Stock">
-<input type="text" id="imagen" placeholder="URL Imagen">
+  <section class="productos">
+    
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975922284-9b5c1b3a5b73" alt="">
+      <h3>Chaqueta Urban</h3>
+      <p>$799 MXN</p>
+      <button>Comprar</button>
+    </div>
 
-<button onclick="guardarPrenda()">Guardar</button>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd47" alt="">
+      <h3>Camisa Classic</h3>
+      <p>$499 MXN</p>
+      <button>Comprar</button>
+    </div>
 
-</section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="">
+      <h3>Hoodie Street</h3>
+      <p>$699 MXN</p>
+      <button>Comprar</button>
+    </div>
 
-<section>
-<h2>Catálogo</h2>
-<div id="catalogo"></div>
-</section>
-
-<script src="app.js"></script>
+  </section>
 
 </body>
 </html>

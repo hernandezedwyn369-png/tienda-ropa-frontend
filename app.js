@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/prendas";
+const API_URL = "https://tienda-ropa-backend-68ny.onrender.com/prendas";
 
 async function guardarPrenda(){
 
